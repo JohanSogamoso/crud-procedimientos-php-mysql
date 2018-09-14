@@ -1,0 +1,33 @@
+.cuerpo{    
+    background-color:rgb(140, 0, 120);
+}
+
+.imagen{
+    display: block;
+    margin: auto;  
+}
+
+.parrafo{    
+    font-style: italic;
+    font-size: 20px;   
+    width: 100%;
+    padding: 25px 25px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.boton{
+    display: block;
+    margin: auto;
+    font-size: 35px;
+    border-bottom: 15px
+    
+}
+
+th, td{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;  
+    border: 2px dashed blue;  
+}
