@@ -5,16 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>MENU</h1>
-    <menu >
-        <a href="registrar_acudiente.php"><button type="submit">Acudiente</button></a><br>
-        <a href="registrar_estudiante.php"><button type="submit">Estudiante</button></a><br>
-        <a href="ciudad.php"><button type="submit">Ciudad</button></a><br>
-        <a href="consulta_estudiante.php"><button type="submit">Consultar Estudiante</button></a><br>
-        <a href="consulta_acudiente.php"><button type="submit">Consultar Acudiente</button></a><br>
-        <a href="index.html"><button type="submit">Home</button></a>    
-    </menu>
+        <div class="container">
+                <h1 class="text-center font-italic display-1">MENU</h1><br><br>
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="text-right">
+                        <menu>
+                                <a href="registrar_acudiente.php"><button type="submit" class="btn btn-primary">Acudiente</button></a><br><br><br>
+                                <a href="registrar_estudiante.php"><button type="submit" class="btn btn-primary">Estudiante</button></a><br>
+                        </menu>                                                        
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                      <div class="text-center">
+                          <menu>
+                                <a href="consulta_estudiante.php"><button type="submit" class="btn btn-primary">Consultar Estudiante</button></a><br><br><br>
+                                <a href="consulta_acudiente.php"><button type="submit" class="btn btn-primary">Consultar Acudiente</button></a><br>
+                          </menu>                                                              
+                      </div>                    
+                  </div>
+                  <div class="col-sm">
+                    <div class="text-left">
+                            <menu>        
+                                <a href="ciudad.php"><button type="submit" class="btn btn-primary">Ciudad</button></a><br><br><br>        
+                                <a href="index.html"><button type="submit" class="btn btn-primary">Home</button></a>    
+                            </menu> 
+                    </div>
+                  </div>
+                </div>
+              </div> 
 </body>
 </html>

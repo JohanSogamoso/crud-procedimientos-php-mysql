@@ -15,6 +15,10 @@ $ciudades = $objCiudad->consultar_ciudad($conexion);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registrar Acudiente</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
     <form action="controlador/registrar_acudiente.php"method="post">
             <label for="">Nombre: </label><input type="text" name="nombreAc" id=""><br>
@@ -36,6 +40,6 @@ $ciudades = $objCiudad->consultar_ciudad($conexion);
             </select><br>
             <input type="submit" value="Registrar"><br>            
     </form>
-    <a href="menu.html"><button type="submit">Volver</button></a>
+    <a href="menu.html"><button type="submit">Volver</button></a>    
 </body>
 </html>
